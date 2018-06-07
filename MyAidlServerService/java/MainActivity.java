@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+	// we don't really need/have to activate the service it will be donne/connected automaticly by the client 
     @OnClick(R.id.start)
     public void onButtonStartClick(View view) {
         Log.d("testing", "onButtonStartClick");
